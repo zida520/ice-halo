@@ -140,4 +140,43 @@ python -m venv venv
 #####
 有pandas,那就需要NumPy
 4.2
+逃水课，做项目
+虚拟环境，
+需要的库，pandas numpy
+激活虚拟环境 venv\Scripts\activate
+根据技术栈安装库 pip install pandas pymysql sqlalchemy pyecharts
+#这里也可以运行 pip install -r requirements.txt
+需要Mysql，导入数据
+需要jupyter，也要安吗
 
+net start mysql80，启动服务器
+复习一下如何创建库
+打开文件
+修改程序
+
+data = pd.read_csv(r'D:\codebox\0shuju\倒闭企业分析\com.csv')
+engine = create_engine('mysql+pymysql://root:xxz520@SQL@localhost:3306/company_db')
+链接mysql
+将虚拟环境注册成内核
+# 在虚拟环境中安装 ipykernel
+pip install ipykernel
+
+# 注册内核
+python -m ipykernel install --user --name=deathcompany --display-name="倒闭企业分析环境"
+在运行过程中报错，
+问题 1：NameError: name 'create_engine' is not defined
+问题 2：密码中的 @ 导致连接字符串解析错误
+mysql+pymysql://root:xxz520%40SQL@localhost:3306/company_db
+在运行完一次数据分析后，我会写一次总结
+又报错，ai分析是没有建立库
+是的，用终端运行mysql建立一个表，成功将数据和库关联起来
+
+已经联系起来，但是中间单元格没有输出数据，我还以为每个单元格都又用呢
+
+激活虚拟环境 venv\Scripts\activate
+打开文件 jupyter lab or jupyter notebook
+vscode 上运行没问题，
+成功运行项目，这告诉我们：
+学习项目，先跑通，在学怎么写代码
+还有是如何把图表跑通
+4.3总结了一下项目运行经验
