@@ -42,6 +42,7 @@ data是解释文件位置
 engine是链接mysql
 同时由于mysql服务器密码有@，要改成 URL 编码格式：%40
 3.将虚拟环境注册为内核
+pip install ipykernel
 python -m ipykernel install --user --name=myenv --display-name="我的项目环境"
 这个就可以使用
 python -m ipykernel install --user --name=deathcompany --display-name="倒闭企业分析环境"

@@ -17,11 +17,13 @@
 概念性项目：https://www.heywhale.com/home/competition/697ad5a9e782130e4c66f3cc/content/1
 课题：预测外卖送达时间
 数据集来源：kaggle
-https://www.kaggle.com/datasets/gauravmalik26/food-delivery-dataset?select=train.csv
+https://www.kaggle.com/datasets/gauravmalik26/food-delivery-dataset?select=train.csv，一个印度的数据集，我认为还是中国本地的项目好
 
+设计构想，输入距离和时间，就可以预测外卖的时间，如何再复杂一点的话，就再加一个城市的情况
 技术栈：
-参赛要求
 
 实验结构
-我的课题：预测心脏病发病风险
-数据库：
+
+库：
+
+
