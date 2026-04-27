@@ -1,0 +1,12 @@
+修改了调用文件
+增加了一个生成器，用于保存预处理器
+快速运行后端
+cd "D:\codebox\wjc-666\model"
+venv\Scripts\activate
+cd "D:\codebox\wjc-666\model\text\backend"
+python app.py
+
+打包，
+打包指令
+pyinstaller app.spec
+训练集的类别

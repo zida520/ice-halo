@@ -1,0 +1,8 @@
+
+还有pytorch
+pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+
+打包pip install pyinstaller
+
+pip install flask flask-cors torch numpy pandas joblib
+pip install torch scikit-learn pandas -i https://pypi.tuna.tsinghua.edu.cn/simple
